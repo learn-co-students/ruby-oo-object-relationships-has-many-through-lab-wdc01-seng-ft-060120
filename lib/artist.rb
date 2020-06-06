@@ -1,3 +1,5 @@
+require_relative './song.rb'
+require_relative './genre.rb'
 class Artist
   attr_accessor :name
   @@all = []

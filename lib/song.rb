@@ -1,3 +1,5 @@
+require_relative './genre.rb'
+require_relative './artist.rb'
 class Song
   attr_reader :name, :artist, :genre
   @@all = []

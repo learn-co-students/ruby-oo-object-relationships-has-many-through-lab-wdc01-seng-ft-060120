@@ -1,3 +1,5 @@
+require_relative './doctor.rb'
+require_relative './appointment.rb'
 class Patient
 attr_reader :name
 @@all = []
